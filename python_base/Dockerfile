@@ -21,6 +21,7 @@ RUN pip3 install --no-cache feedparser
 RUN pip3 install --no-cache python-dateutil
 RUN pip3 install --no-cache Flask-Graphite
 RUN pip3 install --no-cache flasgger
+RUN pip3 install --no-cache Flask
 
 WORKDIR /app
 
